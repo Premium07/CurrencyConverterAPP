@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    /* text-align: center; */
+    min-height: 100vh;
+    background-color: #c1f4b4;
+}
+
+.container{
+    background-color: #ffffffdd;
+    padding: 2rem;
+    border-radius: .5rem;
+    min-height: 50vh;
+    width: 25vw;
+    box-shadow: 0px 2px 10px #65c45a;
+    /* animation: slide 2s ease forwards; */
+}
+@keyframes slide {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+footer{
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    color: #222121e3;
+    animation: slide .8s ease forwards;
+}
+
+a{
+    text-decoration: none;
+    color: #209709;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.heading{
+   color: #136902;
+}
+
+p{
+    font-weight: 600;
+    padding:0.5rem 0;
+    color: #136902d3;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+}
+
+form input{
+    border: 1px solid rgb(126, 239, 117);
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+select *{
+    background-color: rgb(96, 231, 98);
+    font-weight: 600;
+    text-align: center;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    border: 1px solid rgb(126, 239, 117);
+    width: 7rem;
+    padding: .5rem;
+}
+
+.select-container select{
+    font-style: 1rem;
+    width: auto;
+}
+
+.msg{
+    margin: 2rem 0;
+    color: #136902b8;
+    font-weight: 600;
+}
+
+form button{
+    height: 3rem;
+    background-color: #146902;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+form button:hover{
+    background-color: #209709;
+}
+
