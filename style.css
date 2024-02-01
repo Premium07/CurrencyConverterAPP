@@ -27,7 +27,7 @@ body{
     min-height: 50vh;
     width: 25vw;
     box-shadow: 0px 2px 10px #65c45a;
-    /* animation: slide 2s ease forwards; */
+    animation: slide 2s ease forwards;
 }
 @keyframes slide {
     0%{
